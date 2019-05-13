@@ -8,7 +8,7 @@ app.use(helmet())
 
 app.get('*', (req, res) => {
     res.set('Content-Type', 'text/html')
-    res.send(200, `
+    res.status(200).send(`
         <h1>Hello from ZEIT NOW path '/about' on Now 2.0!</h1>
         <h2>Go to <a href="/">/</a></h2>
     `)
