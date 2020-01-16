@@ -1,5 +1,10 @@
 {
 "version":2,
 "name":"zeit-now-express2",
-"builds":[{"src":"**/*.js","use":"@now/node"}]
+"builds":[{"src":"**/*.js","use":"@now/node"}],
+"env": {
+      "CLOUDINARY_APINAME": "@my_cloudinary_apiname",
+      "CLOUDINARY_APIKEY": "@my_cloudinary_apikey",
+      "CLOUDINARY_APISECRET": "@my_cloudinary_apisecret"
+    }
 }
