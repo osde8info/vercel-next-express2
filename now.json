@@ -1,1 +1,5 @@
-{"version":2,"name":"zeit-now-express2","builds":[{"src":"**/*.js","use":"@now/node"}]}
+{
+"version":2,
+"name":"zeit-now-express2",
+"builds":[{"src":"**/*.js","use":"@now/node"}]
+}
